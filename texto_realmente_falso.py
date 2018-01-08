@@ -1,6 +1,6 @@
 import random
 #recibir archivo
-texto = open('.git\entrada.txt','r')
+texto = open('entrada.txt','r')
 lista = []
 diccionario = {}
 anterior = ""
@@ -33,7 +33,7 @@ resultado= open(".git\salida.txt","a")
 #buscar palabra inicial
 palabra=""
 
-for i in range(0, 100, 1)  :
+for i in range(0, 10, 1)  :
     #si existe siguiente palabra
     if len(diccionario[palabra])>0:
         #(true) seleccionar , escribir y eliminar
